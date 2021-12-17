@@ -1,0 +1,149 @@
+.section-2 {
+    width: 100%;
+    height: 100 auto;
+    background: $orqafon;
+
+    .qator-1 {
+        margin-top: 170px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+
+            p {
+                font-size: 20px;
+                color: $klurang;
+
+                &:hover {
+                    color: $oq;
+                }
+            }
+
+            .img-text {
+                display: flex;
+                gap: 8px;
+            }
+        }
+
+        .box {
+            width: 714.03px;
+            height: 145.91px;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) -21.07%, rgba(255, 255, 255, 0.02) 120.5%);
+            backdrop-filter: blur(23px);
+            clip-path: polygon(9% 0, 100% 0, 90% 100%, 0% 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h3 {
+                color: $oq;
+                font-size: 25px;
+            }
+
+            p {
+                color: $klurang;
+                font-size: 13px;
+
+                &:hover {
+                    color: $oq;
+                }
+            }
+        }
+    }
+
+    .text-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .text {
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            gap: 41px;
+
+            h1 {
+                color: $oq;
+                font-size: 55px;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                width: 204px;
+                height: 63.5px;
+                background-color: $qizil;
+                padding: 15px;
+                padding-left: 40px;
+                font-size: 19px;
+                color: $oq;
+                text-decoration: none;
+            }
+        }       
+        
+        .box {
+            gap: 37.36px;
+            display: flex;
+
+            .box-1 {
+                display: flex;
+                flex-direction: column;
+                gap: 36.87px;
+                margin-top: 60px;
+
+                .box {                   
+                    width: 274.94px;
+                    height: 267.27px;
+                    border: 2px solid $klurang;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding: 74.4px 28.74px;
+
+                    &:hover {
+                        background-color: $qizil;
+                    }
+
+                    p {
+                        text-align: center;
+                        color: $oq;
+                    }
+                }
+            }
+
+            .box-2 {
+                display: flex;
+                flex-direction: column;
+                gap: 36.87px;
+
+                .box {                   
+                    width: 274.94px;
+                    height: 267.27px;
+                    border: 2px solid $klurang;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding: 74.4px 28.74px;
+                    
+
+                    &:hover {
+                        background-color: $qizil;
+                    }
+
+                    p {
+                        text-align: center;
+                        color: $oq;
+                    }
+                }
+            }
+        }
+    }
+}

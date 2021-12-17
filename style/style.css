@@ -13,6 +13,12 @@ body {
   position: relative;
 }
 
+section {
+  width: 100%;
+  height: 100 auto;
+  background: #0F0D0E;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,5 +105,217 @@ main .text {
   gap: 35.86px;
   margin-top: 120px;
   margin-left: 1100px;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100 auto;
+  background: #0F0D0E;
+}
+
+.section-2 .qator-1 {
+  margin-top: 170px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-2 .qator-1 .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.section-2 .qator-1 .text p {
+  font-size: 20px;
+  color: gray;
+}
+
+.section-2 .qator-1 .text p:hover {
+  color: #fff;
+}
+
+.section-2 .qator-1 .text .img-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.section-2 .qator-1 .box {
+  width: 714.03px;
+  height: 145.91px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-21.07%, rgba(255, 255, 255, 0.16)), color-stop(120.5%, rgba(255, 255, 255, 0.02)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) -21.07%, rgba(255, 255, 255, 0.02) 120.5%);
+  -webkit-backdrop-filter: blur(23px);
+          backdrop-filter: blur(23px);
+  -webkit-clip-path: polygon(9% 0, 100% 0, 90% 100%, 0% 100%);
+          clip-path: polygon(9% 0, 100% 0, 90% 100%, 0% 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-2 .qator-1 .box h3 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.section-2 .qator-1 .box p {
+  color: gray;
+  font-size: 13px;
+}
+
+.section-2 .qator-1 .box p:hover {
+  color: #fff;
+}
+
+.section-2 .text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-2 .text-box .text {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 41px;
+}
+
+.section-2 .text-box .text h1 {
+  color: #fff;
+  font-size: 55px;
+}
+
+.section-2 .text-box .text a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  width: 204px;
+  height: 63.5px;
+  background-color: #FF0000;
+  padding: 15px;
+  padding-left: 40px;
+  font-size: 19px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-2 .text-box .box {
+  gap: 37.36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .text-box .box .box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 36.87px;
+  margin-top: 60px;
+}
+
+.section-2 .text-box .box .box-1 .box {
+  width: 274.94px;
+  height: 267.27px;
+  border: 2px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  padding: 74.4px 28.74px;
+}
+
+.section-2 .text-box .box .box-1 .box:hover {
+  background-color: #FF0000;
+}
+
+.section-2 .text-box .box .box-1 .box p {
+  text-align: center;
+  color: #fff;
+}
+
+.section-2 .text-box .box .box-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 36.87px;
+}
+
+.section-2 .text-box .box .box-2 .box {
+  width: 274.94px;
+  height: 267.27px;
+  border: 2px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  padding: 74.4px 28.74px;
+}
+
+.section-2 .text-box .box .box-2 .box:hover {
+  background-color: #FF0000;
+}
+
+.section-2 .text-box .box .box-2 .box p {
+  text-align: center;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
