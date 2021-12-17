@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 62.75px;
+
+        p {
+            font-size: 16px;
+            color: $klurang;
+
+            &:hover {
+                color: $oq;
+            }
+        }
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+main {
+    margin-top: 79.72px;
+
+    h1 {
+        font-size: 100px;
+        color: $oq;
+
+        span {
+            width: 436.81px;
+            height: 128.86px;
+            margin-left: 50px;
+            background-color: $qizil;
+            clip-path: polygon(4% 0%, 100% 0%, 95% 100%, 0% 100%);
+        }
+    }
+
+    p {
+        margin-top: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: $ochklurang;
+
+        &:hover {
+            color: $oq;
+        }
+    }
+
+    .car {
+        position: absolute;
+        margin-left: 100px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 35.86px;
+        margin-top: 120px;
+        margin-left: 1100px;
+    }
+}
